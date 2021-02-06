@@ -1,2 +1,2 @@
-# comp108-2020-21
-Public repo for COMP108 for the academic year of 2020/21
+# comp108
+Public repo for COMP108
