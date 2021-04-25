@@ -21,39 +21,39 @@ def appendIfMissExists():
 
 
 @check50.check(appendIfMissExists)
-def appendIfMissHits01():
-    """appendIfMiss's hit count for case 01 is correct"""
+def appendIfMissHits02():
+    """appendIfMiss's hit count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#appendIfMissHits01'])
+        args=['--select-method', 'COMP108A2CabTest#appendIfMissHits02'])
 
 @check50.check(appendIfMissExists)
-def appendIfMissMisses01():
-    """appendIfMiss's miss count for case 01 is correct"""
+def appendIfMissMisses02():
+    """appendIfMiss's miss count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#appendIfMissMisses01'])
+        args=['--select-method', 'COMP108A2CabTest#appendIfMissMisses02'])
 
 @check50.check(appendIfMissExists)
-def appendIfMissCompare01():
-    """appendIfMiss's compare array for case 01 is correct"""
+def appendIfMissCompare02():
+    """appendIfMiss's compare array for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#appendIfMissCompare01'])
+        args=['--select-method', 'COMP108A2CabTest#appendIfMissCompare02'])
 
 @check50.check(appendIfMissExists)
-def appendIfMissCabFromHead01():
-    """appendIfMiss's cabFromHead string for case 01 is correct"""
+def appendIfMissCabFromHead02():
+    """appendIfMiss's cabFromHead string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#appendIfMissCabFromHead01'])
+        args=['--select-method', 'COMP108A2CabTest#appendIfMissCabFromHead02'])
 
 @check50.check(appendIfMissExists)
-def appendIfMissCabFromTail01():
-    """appendIfMiss's cabFromTail string for case 01 is correct"""
+def appendIfMissCabFromTail02():
+    """appendIfMiss's cabFromTail string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#appendIfMissCabFromTail01'])
+        args=['--select-method', 'COMP108A2CabTest#appendIfMissCabFromTail02'])
 
 @check50.check(compiles)
 def moveToFrontExists():
@@ -63,39 +63,39 @@ def moveToFrontExists():
         args=['--select-method', 'COMP108A2CabTest#moveToFrontIsPublic'])
 
 @check50.check(moveToFrontExists)
-def moveToFrontHits01():
-    """moveToFront's hit count for case 01 is correct"""
+def moveToFrontHits02():
+    """moveToFront's hit count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#moveToFrontHits01'])
+        args=['--select-method', 'COMP108A2CabTest#moveToFrontHits02'])
 
 @check50.check(moveToFrontExists)
-def moveToFrontMisses01():
-    """moveToFront's miss count for case 01 is correct"""
+def moveToFrontMisses02():
+    """moveToFront's miss count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#moveToFrontMisses01'])
+        args=['--select-method', 'COMP108A2CabTest#moveToFrontMisses02'])
 
 @check50.check(moveToFrontExists)
-def moveToFrontCompare01():
-    """moveToFront's compare array for case 01 is correct"""
+def moveToFrontCompare02():
+    """moveToFront's compare array for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#moveToFrontCompare01'])
+        args=['--select-method', 'COMP108A2CabTest#moveToFrontCompare02'])
 
 @check50.check(moveToFrontExists)
-def moveToFrontCabFromHead01():
-    """moveToFront's cabFromHead string for case 01 is correct"""
+def moveToFrontCabFromHead02():
+    """moveToFront's cabFromHead string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#moveToFrontCabFromHead01'])
+        args=['--select-method', 'COMP108A2CabTest#moveToFrontCabFromHead02'])
 
 @check50.check(moveToFrontExists)
-def moveToFrontCabFromTail01():
-    """moveToFront's cabFromTail string for case 01 is correct"""
+def moveToFrontCabFromTail02():
+    """moveToFront's cabFromTail string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#moveToFrontCabFromTail01'])
+        args=['--select-method', 'COMP108A2CabTest#moveToFrontCabFromTail02'])
 
 @check50.check(compiles)
 def freqCountExists():
@@ -105,43 +105,43 @@ def freqCountExists():
         args=['--select-method', 'COMP108A2CabTest#freqCountIsPublic'])
 
 @check50.check(freqCountExists)
-def freqCountHits01():
-    """freqCount's hit count for case 01 is correct"""
+def freqCountHits02():
+    """freqCount's hit count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountHits01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountHits02'])
 
 @check50.check(freqCountExists)
-def freqCountMisses01():
-    """freqCount's miss count for case 01 is correct"""
+def freqCountMisses02():
+    """freqCount's miss count for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountMisses01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountMisses02'])
 
 @check50.check(freqCountExists)
-def freqCountCompare01():
-    """freqCount's compare array for case 01 is correct"""
+def freqCountCompare02():
+    """freqCount's compare array for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountCompare01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountCompare02'])
 
 @check50.check(freqCountExists)
-def freqCountCabFromHead01():
-    """freqCount's cabFromHead string for case 01 is correct"""
+def freqCountCabFromHead02():
+    """freqCount's cabFromHead string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromHead01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromHead02'])
 
 @check50.check(freqCountExists)
-def freqCountCabFromTail01():
-    """freqCount's cabFromTail string for case 01 is correct"""
+def freqCountCabFromTail02():
+    """freqCount's cabFromTail string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromTail01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromTail02'])
 
 @check50.check(freqCountExists)
-def freqCountCabFromHeadFreq01():
-    """freqCount's cabFromHeadFreq string for case 01 is correct"""
+def freqCountCabFromHeadFreq02():
+    """freqCount's cabFromHeadFreq string for case 02 is correct"""
     check50_junit.run_and_interpret_test(
         classpaths=['tests/'],
-        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromHeadFreq01'])
+        args=['--select-method', 'COMP108A2CabTest#freqCountCabFromHeadFreq02'])
